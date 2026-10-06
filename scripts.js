@@ -8,7 +8,10 @@
 //     Luego retorna una frase: "Soy <nombre> y tengo <edad> años."
 
 const presentarse = () => {
-    // TODO
+    let nombre = 'Kevin'
+    let edad = 22
+
+    return `Soy ${nombre} y tengo ${edad} años`
 };
 
 // 1.2 Dado el valor 42, retorna su tipo de dato como string (ej: "number")
